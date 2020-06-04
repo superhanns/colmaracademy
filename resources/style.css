@@ -1,9 +1,19 @@
 body {
     background-color: white;
-    margin: 0 24px;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+figure {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Header */
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -17,7 +27,89 @@ nav li {
     text-decoration: none;
 }
 
-a {
-    color: black;
-    text-decoration: none;
+nav {
+    height: 64px;
+    background-color: white;
 }
+
+/* Banner */
+
+.banner {
+    background-color: rgba(216, 216, 216);
+    padding: 32px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 60%;
+}
+
+.banner-text {
+    padding-left: 24px;
+    padding-right: 72px;
+}
+
+.banner-text button {
+    padding: 8px 0;
+    background-color: rgba(74, 74, 74);
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Practice */
+
+.practice-section {
+    display: flex;
+    flex-direction: row;
+ 
+    padding: 32px 24px;
+}
+
+.practice {
+    width: 60%;
+    padding-right: 24px;
+}
+
+.practice img {
+    max-width: 100%;
+}
+
+.practice-details {
+    width: 40%;
+    justify-content: flex-start;
+}
+
+.practice-details img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.practice-details figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+/* Learning */
+
+.learning {
+    background-color: #E5E4E4;
+    padding: 32px 72px;
+}
+
+.box {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* Footer */
