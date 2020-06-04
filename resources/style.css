@@ -8,10 +8,12 @@ a {
     text-decoration: none;
 }
 
-figure {
+/* figure {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
+} */
+
+
 
 /* Header */
 nav ul {
